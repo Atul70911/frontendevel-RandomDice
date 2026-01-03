@@ -1,0 +1,18 @@
+.die {
+  display: grid;
+  place-items: center;
+
+  height: 64px;
+  width: 64px;
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(6px);
+}
+
+/* Lucide icons are SVGs; you can size them via width/height in CSS */
+.die svg {
+  width: 40px;
+  height: 40px;
+}
